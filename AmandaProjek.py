@@ -3,15 +3,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # judul
-st.markdown("<h1 style='color: black;'>FISIKA KOMPUTASI AWAN</h1>", unsafe_allow_html=True)
-st.markdown("<h2 style='color: blue;'>Mohammad Khrisna Alfariza</h2>", unsafe_allow_html=True)
-st.markdown("<h3 style='color: blue;'>220322603846</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: red;'>FISIKA KOMPUTASI AWAN</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='color: blue;'>Amanda Berliana Indah Suryani</h2>", unsafe_allow_html=True)
+st.markdown("<h3 style='color: green;'>220322608247</h3>", unsafe_allow_html=True)
 st.markdown("<h4 style='color: black;'>Program Data/Warna Acak</h4>", unsafe_allow_html=True)
 
 # button mengacak data
 if st.button('Data'):
     # data/warna acak
-    jumlah_titik = 200
+    jumlah_titik = 400
     sudut = 2 * np.pi * np.random.rand(jumlah_titik)
     radius = np.sqrt(np.random.rand(jumlah_titik))
     x_posisi = radius * np.cos(sudut)
